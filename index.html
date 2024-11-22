@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página de Recetas de Cocina</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Si deseas usar CSS externo -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .receta {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .receta img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .receta h2 {
+            color: #ff6347;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>Bienvenidos a mi Página de Recetas de Cocina</h1>
+        <p>Descubre deliciosas recetas fáciles y rápidas</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Recetas</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <div class="receta">
+            <img src="https://via.placeholder.com/300" alt="Receta 1">
+            <h2>Spaghetti a la Boloñesa</h2>
+            <p>Una receta clásica de pasta italiana con carne y salsa de tomate.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+        <div class="receta">
+            <img src="https://via.placeholder.com/300" alt="Receta 2">
+            <h2>Tacos de Pollo</h2>
+            <p>Deliciosos tacos de pollo con verduras frescas y salsa picante.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+        <div class="receta">
+            <img src="https://via.placeholder.com/300" alt="Receta 3">
+            <h2>Ensalada César</h2>
+            <p>Una ensalada fresca y saludable con pollo, lechuga y aderezo cremoso.</p>
+            <a href="#">Ver receta</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Página de Recetas de Cocina | Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
